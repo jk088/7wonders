@@ -1,0 +1,107 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: black;
+   text-decoration: none;
+   text-align: center;
+   
+   
+   }
+   .titulo{
+       padding: 40px;
+   }
+   nav ul{
+       width: 80%;
+       margin: auto;
+       border-radius: 10px;
+       list-style-type: none;
+       background-color: rgb(154, 117, 86);
+   }
+   
+   nav li{
+       display: inline-flex;
+   }
+   
+   nav a{
+       padding: 9px;
+       width: 150px;
+   
+   }
+   
+   nav ul a:hover{
+   background-color: rgb(228, 170, 99);
+   border-radius: 5px;
+   }
+   
+   .contenido{
+       display: flex;
+       width: 80%;
+       margin: auto;
+       margin-top: 50px;
+   }
+   
+   .contenido .articulo{
+       width: 70%;
+       margin: auto;
+   }
+   
+   .contenido .articulo div{
+       width: 80%;
+       padding: 15px;
+       background-color: rgb(202, 202, 202);
+       border-radius: 15px;
+       margin-bottom: 15px;
+   
+   }
+   
+   .contenido .articulo img{
+       width: 100%;
+       border-radius: 15px;
+   }
+   
+   .contenido .secundaria{
+       width: 30%;
+   }
+   .contenido .secundaria p{
+       background-color: rgb(225, 135, 32);
+       border-radius: 15px;
+       padding: 20px;
+       height: 1000px;
+   
+   }
+   .piedepagina{
+       background-color: rgb(194, 149, 113);
+       margin: 100px;
+       border-radius: 15px;
+   }
+   .piedepagina p{
+       padding: 50px;
+   }
+   .tituloh1{
+      font-size: 50px;
+      color: rgb(48, 48, 48);
+      padding:10px;
+   }
+   .secundaria p{
+      color: rgb(255, 255, 255);
+      text-align: justify;
+   }
+   .piedepagina p{
+      font-size: 10px;
+      color: rgb(0, 0, 0);
+      text-align: justify;
+   }
+
+   p {
+    text-align: justify;
+    padding: 15px;
+   }
+   /*.articulo{
+       display: grid;
+       gap: 1rem;
+       grid-auto-rows: 22rem;
+       grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+   
+   }*/
+
